@@ -1,15 +1,15 @@
 class Orbital < Formula
   desc "macOS disk cleanup tool with developer awareness"
   homepage "https://github.com/srmdn/orbital"
-  version "0.2.0"
+  version "0.2.1"
 
   on_arm do
-    url "https://github.com/srmdn/orbital/releases/download/v0.2.0/orbital_darwin_arm64"
-    sha256 "7c347201f24afade1f54f6c6fa2ae2aef0c9856fb98d48d8c78452933543ebc1"
+    url "https://github.com/srmdn/orbital/releases/download/v0.2.1/orbital_darwin_arm64"
+    sha256 "8177f160812f16240cbd3ac6d873c846888d61e41d74b486c444a670e3da77c9"
   end
   on_intel do
-    url "https://github.com/srmdn/orbital/releases/download/v0.2.0/orbital_darwin_amd64"
-    sha256 "6db842bdadd92d5ae91c9c56344c6480f745bfa91090f29891d684f4d86d0a9c"
+    url "https://github.com/srmdn/orbital/releases/download/v0.2.1/orbital_darwin_amd64"
+    sha256 "a544be4e44c35200fdc3c2c3f1705ab4e1549ea3c87f9a89f48ac0aaf5e7e1f8"
   end
 
   def install

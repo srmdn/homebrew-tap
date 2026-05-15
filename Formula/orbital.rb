@@ -13,10 +13,9 @@ class Orbital < Formula
   end
 
   def install
-    on_arm do
+    if Hardware::CPU.arm?
       bin.install "orbital_darwin_arm64" => "orbital"
-    end
-    on_intel do
+    else
       bin.install "orbital_darwin_amd64" => "orbital"
     end
   end

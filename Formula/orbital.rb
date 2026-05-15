@@ -5,11 +5,11 @@ class Orbital < Formula
 
   on_arm do
     url "https://github.com/srmdn/orbital/releases/download/v0.2.0/orbital_darwin_arm64"
-    sha256 "2fb8c92bf4fd1da6be0633d62aa7f65e219d6203faed9e9e1a9cd76256609a94"
+    sha256 "7c347201f24afade1f54f6c6fa2ae2aef0c9856fb98d48d8c78452933543ebc1"
   end
   on_intel do
     url "https://github.com/srmdn/orbital/releases/download/v0.2.0/orbital_darwin_amd64"
-    sha256 "61dd9279703b2717d05a49cee6df508d67bfbdfae75743dc134687cabafc3360"
+    sha256 "6db842bdadd92d5ae91c9c56344c6480f745bfa91090f29891d684f4d86d0a9c"
   end
 
   def install

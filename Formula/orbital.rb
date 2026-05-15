@@ -13,7 +13,12 @@ class Orbital < Formula
   end
 
   def install
-    bin.install Dir["orbital_darwin_*"] => "orbital"
+    on_arm do
+      bin.install "orbital_darwin_arm64" => "orbital"
+    end
+    on_intel do
+      bin.install "orbital_darwin_amd64" => "orbital"
+    end
   end
 
   test do

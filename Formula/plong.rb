@@ -1,22 +1,22 @@
 class Plong < Formula
   desc "macOS disk cleanup tool with developer awareness"
   homepage "https://github.com/srmdn/plong"
-  version "0.2.1"
+  version "0.2.2"
 
   on_arm do
-    url "https://github.com/srmdn/plong/releases/download/v0.2.1/orbital_darwin_arm64"
-    sha256 "8177f160812f16240cbd3ac6d873c846888d61e41d74b486c444a670e3da77c9"
+    url "https://github.com/srmdn/plong/releases/download/v0.2.2/plong_darwin_arm64"
+    sha256 "25fbcd6b8adba5179fd2cf4e9f6ec7d88a7758ae786a5d1a01c873385be97c13"
   end
   on_intel do
-    url "https://github.com/srmdn/plong/releases/download/v0.2.1/orbital_darwin_amd64"
-    sha256 "a544be4e44c35200fdc3c2c3f1705ab4e1549ea3c87f9a89f48ac0aaf5e7e1f8"
+    url "https://github.com/srmdn/plong/releases/download/v0.2.2/plong_darwin_amd64"
+    sha256 "907761d466f41dfec78ca91f02c35f7c5c2d667b45622c487a65c6366e765f8f"
   end
 
   def install
     if Hardware::CPU.arm?
-      bin.install "orbital_darwin_arm64" => "plong"
+      bin.install "plong_darwin_arm64" => "plong"
     else
-      bin.install "orbital_darwin_amd64" => "plong"
+      bin.install "plong_darwin_amd64" => "plong"
     end
   end
 

@@ -1,15 +1,15 @@
 class Plong < Formula
   desc "macOS disk cleanup tool with developer awareness"
   homepage "https://github.com/srmdn/plong"
-  version "0.2.4"
+  version "0.2.5"
 
   on_arm do
-    url "https://github.com/srmdn/plong/releases/download/v0.2.4/plong_darwin_arm64"
-    sha256 "71c308f17e86ecbaff2146d2cded6189ea3c9e96631f802cbcae69aaf621cfb6"
+    url "https://github.com/srmdn/plong/releases/download/v0.2.5/plong_darwin_arm64"
+    sha256 "aaa7380f728e4d41b356b4de004540dd3c5d38e4c7fb1d452b7e7274c46653a0"
   end
   on_intel do
-    url "https://github.com/srmdn/plong/releases/download/v0.2.4/plong_darwin_amd64"
-    sha256 "1260bccdc75f162f3101276509831d93742c63664304bd9f9b321ee710996ffb"
+    url "https://github.com/srmdn/plong/releases/download/v0.2.5/plong_darwin_amd64"
+    sha256 "a598ea74531a734a0f4ca61298671a2d164be94da4e3202b082af388727877bd"
   end
 
   def install
